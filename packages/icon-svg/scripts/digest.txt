@@ -1,0 +1,3 @@
+loading-outlined
+no-data-outlined
+search-no-data-outlined

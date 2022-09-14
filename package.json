@@ -1,0 +1,11 @@
+{
+  "name": "pf-ui-icons",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "xuzhudong <451547014@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^5.5.1"
+  }
+}
