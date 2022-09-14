@@ -48,5 +48,9 @@
     "typescript": "^3.8.3",
     "vinyl": "^2.2.0"
   },
-  "gitHead": "a2aadb735c93276596f16958aef4ae5f6b30b54b"
+  "gitHead": "17ba3b9f532178b0a78084c7601817ed7409cbb6",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }
