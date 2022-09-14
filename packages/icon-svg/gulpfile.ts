@@ -105,34 +105,6 @@ export default series(
         identifier,
         path: `./asn/${identifier}`
       })
-    }),
-
-    // 3.2 generate inline SVG files
-    generateInline({
-      from: ['src/asn/*.ts'],
-      toDir: ({ _meta }) => `inline-svg/${_meta && _meta.theme}`,
-      getIconDefinitionFromSource: (content: string): IconDefinition => {
-        const extract = ExtractRegExp.exec(content);
-        if (extract === null || !extract[1]) {
-          throw new Error('Failed to parse raw icon definition: ' + content);
-        }
-        return new Function(`return ${extract[1]}`)() as IconDefinition;
-      }
-    }),
-    // 3.3 generate inline SVG files with namespace
-    generateInline({
-      from: ['src/asn/*.ts'],
-      toDir: ({ _meta }) => `inline-namespaced-svg/${_meta && _meta.theme}`,
-      getIconDefinitionFromSource: (content: string): IconDefinition => {
-        const extract = ExtractRegExp.exec(content);
-        if (extract === null || !extract[1]) {
-          throw new Error('Failed to parse raw icon definition: ' + content);
-        }
-        return new Function(`return ${extract[1]}`)() as IconDefinition;
-      },
-      renderOptions: {
-        extraSVGAttrs: { xmlns: 'http://www.w3.org/2000/svg' }
-      }
     })
   )
 );
