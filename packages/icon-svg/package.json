@@ -1,5 +1,5 @@
 {
-  "name": "icon-svg",
+  "name": "@pf-ui-icon/icon-svg",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.js",
