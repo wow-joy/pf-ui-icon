@@ -1,12 +1,13 @@
 {
-  "name": "@pf-ui-icon/icons-vue",
+  "name": "pf-icons-vue",
   "version": "1.0.0",
   "private": true,
-  "description": "the icons of vue3",
+  "description": "支持vue3的icon库",
   "author": "xuzhudong <451547014@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/icons-vue.js",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,6 +20,25 @@
     "url": "http://gitlab.wowjoy.com/platform/front-npm/pf-ui-icon.git"
   },
   "scripts": {
-    "test": "node ./__tests__/icons-vue.test.js"
+    "clean": "./scripts/cleanup.sh",
+    "lint": "eslint src/ --ext .tsx,.ts",
+    "dev": "vite",
+    "prepublishOnly": "npm run lint && npm run generate && npm run build",
+    "generate": "rm -rf src/icons && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
+    "build": "npm run clean && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=entry"
+  },
+  "dependencies": {
+    "pf-icon-svg": "^1.0.2"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.39"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.1",
+    "vue": "^3.2.39"
   }
 }

@@ -1,10 +1,11 @@
 {
-  "name": "@pf-ui-icon/icon-svg",
+  "name": "pf-icon-svg",
   "version": "1.0.2",
   "main": "lib/index.js",
   "module": "es/index.js",
   "author": "xuzhudong <451547014@qq.com>",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "generate": "cross-env NODE_ENV=production gulp --require ts-node/register/transpile-only",
     "type-check": "tsc --noEmit",
@@ -48,9 +49,7 @@
     "typescript": "^3.8.3",
     "vinyl": "^2.2.0"
   },
-  "gitHead": "17ba3b9f532178b0a78084c7601817ed7409cbb6",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
+    "access": "public"
   }
 }

@@ -9,15 +9,12 @@ import {
 import { generalConfig, remainFillConfig } from './plugins/svgo/presets';
 import {
   assignAttrsAtTag,
-  adjustViewBox,
   setDefaultColorAtPathTag
 } from './plugins/svg2Definition/transforms';
 import { twotoneStringify } from './plugins/svg2Definition/stringify';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import { getIdentifier } from './utils';
-import { IconDefinition } from './utils/types';
-import { ExtractRegExp } from './tasks/generateInline';
 
 const iconTemplate = readFileSync(
   resolve(__dirname, './templates/icon.ts.ejs'),
@@ -42,8 +39,7 @@ export default series(
       toDir: 'src/asn',
       svgoConfig: generalConfig,
       extraNodeTransformFactories: [
-        assignAttrsAtTag('svg', { focusable: 'false' }),
-        adjustViewBox
+        assignAttrsAtTag('svg', { focusable: 'false' })
       ],
       stringify: JSON.stringify,
       template: iconTemplate,
@@ -61,8 +57,7 @@ export default series(
       toDir: 'src/asn',
       svgoConfig: generalConfig,
       extraNodeTransformFactories: [
-        assignAttrsAtTag('svg', { focusable: 'false' }),
-        adjustViewBox
+        assignAttrsAtTag('svg', { focusable: 'false' })
       ],
       stringify: JSON.stringify,
       template: iconTemplate,
@@ -81,7 +76,6 @@ export default series(
       svgoConfig: remainFillConfig,
       extraNodeTransformFactories: [
         assignAttrsAtTag('svg', { focusable: 'false' }),
-        adjustViewBox,
         setDefaultColorAtPathTag('#333')
       ],
       stringify: twotoneStringify,
