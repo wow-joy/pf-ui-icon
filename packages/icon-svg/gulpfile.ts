@@ -9,6 +9,7 @@ import {
 import { generalConfig, remainFillConfig } from './plugins/svgo/presets';
 import {
   assignAttrsAtTag,
+  adjustViewBox,
   setDefaultColorAtPathTag
 } from './plugins/svg2Definition/transforms';
 import { twotoneStringify } from './plugins/svg2Definition/stringify';
@@ -39,7 +40,8 @@ export default series(
       toDir: 'src/asn',
       svgoConfig: generalConfig,
       extraNodeTransformFactories: [
-        assignAttrsAtTag('svg', { focusable: 'false' })
+        assignAttrsAtTag('svg', { focusable: 'false' }),
+        adjustViewBox
       ],
       stringify: JSON.stringify,
       template: iconTemplate,
@@ -57,7 +59,8 @@ export default series(
       toDir: 'src/asn',
       svgoConfig: generalConfig,
       extraNodeTransformFactories: [
-        assignAttrsAtTag('svg', { focusable: 'false' })
+        assignAttrsAtTag('svg', { focusable: 'false' }),
+        adjustViewBox
       ],
       stringify: JSON.stringify,
       template: iconTemplate,
@@ -76,6 +79,7 @@ export default series(
       svgoConfig: remainFillConfig,
       extraNodeTransformFactories: [
         assignAttrsAtTag('svg', { focusable: 'false' }),
+        adjustViewBox,
         setDefaultColorAtPathTag('#333')
       ],
       stringify: twotoneStringify,

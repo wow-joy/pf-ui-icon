@@ -3,15 +3,15 @@
 
 import { FunctionalComponent } from 'vue';
 import NoDataFilledSvg from 'pf-icon-svg/es/asn/NoDataFilled';
-import AntdIcon, { AntdIconProps } from '../components/AntdIcon';
+import PfIcon, { PfIconProps } from '../components/PfIcon';
 
-export interface NoDataFilledIconType extends FunctionalComponent<AntdIconProps> {
+export interface NoDataFilledIconType extends FunctionalComponent<PfIconProps> {
   displayName: string;
 }
 
 const NoDataFilled: NoDataFilledIconType = (props, context) => {
   const p = { ...props, ...context.attrs };
-  return <AntdIcon {...p} icon={NoDataFilledSvg}></AntdIcon>;
+  return <PfIcon {...p} icon={NoDataFilledSvg}></PfIcon>;
 };
 
 NoDataFilled.displayName = 'NoDataFilled';

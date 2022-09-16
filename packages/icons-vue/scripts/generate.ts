@@ -36,15 +36,15 @@ async function generateIcons() {
 
 import { FunctionalComponent } from 'vue';
 import <%= svgIdentifier %>Svg from 'pf-icon-svg/es/asn/<%= svgIdentifier %>';
-import AntdIcon, { AntdIconProps } from '../components/AntdIcon';
+import PfIcon, { PfIconProps } from '../components/PfIcon';
 
-export interface <%= svgIdentifier %>IconType extends FunctionalComponent<AntdIconProps> {
+export interface <%= svgIdentifier %>IconType extends FunctionalComponent<PfIconProps> {
   displayName: string;
 }
 
 const <%= svgIdentifier %>: <%= svgIdentifier %>IconType = (props, context) => {
   const p = { ...props, ...context.attrs };
-  return <AntdIcon {...p} icon={<%= svgIdentifier %>Svg}></AntdIcon>;
+  return <PfIcon {...p} icon={<%= svgIdentifier %>Svg}></PfIcon>;
 };
 
 <%= svgIdentifier %>.displayName = '<%= svgIdentifier %>';

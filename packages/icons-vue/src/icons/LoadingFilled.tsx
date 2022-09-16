@@ -3,15 +3,15 @@
 
 import { FunctionalComponent } from 'vue';
 import LoadingFilledSvg from 'pf-icon-svg/es/asn/LoadingFilled';
-import AntdIcon, { AntdIconProps } from '../components/AntdIcon';
+import PfIcon, { PfIconProps } from '../components/PfIcon';
 
-export interface LoadingFilledIconType extends FunctionalComponent<AntdIconProps> {
+export interface LoadingFilledIconType extends FunctionalComponent<PfIconProps> {
   displayName: string;
 }
 
 const LoadingFilled: LoadingFilledIconType = (props, context) => {
   const p = { ...props, ...context.attrs };
-  return <AntdIcon {...p} icon={LoadingFilledSvg}></AntdIcon>;
+  return <PfIcon {...p} icon={LoadingFilledSvg}></PfIcon>;
 };
 
 LoadingFilled.displayName = 'LoadingFilled';

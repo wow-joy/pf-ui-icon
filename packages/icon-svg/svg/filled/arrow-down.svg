@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="平台icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-815.000000, -180.000000)" fill-rule="nonzero" id="下拉">
+            <g transform="translate(815.000000, 180.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="100" height="100"></rect>
+                <path d="M45.4785156,68.2226562 C47.9785156,71.6992188 52.03125,71.6894531 54.5214844,68.2226562 L77.9980469,35.46875 C80.4980469,31.9921875 78.8378906,29.1601562 74.4140625,29.1601562 L25.5859375,29.1601562 C21.1132813,29.1601562 19.5117188,32.0019531 22.0019531,35.46875 L45.4785156,68.2226562 Z" id="路径" fill="#999999"></path>
+            </g>
+        </g>
+    </g>
+</svg>
