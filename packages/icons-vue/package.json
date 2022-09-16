@@ -1,7 +1,7 @@
 {
   "name": "pf-icons-vue",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "支持vue3的icon库",
   "author": "xuzhudong <451547014@qq.com>",
   "homepage": "",
@@ -9,23 +9,22 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
-    "lib"
+    "lib",
+    "es"
   ],
   "repository": {
     "type": "git",
     "url": "http://gitlab.wowjoy.com/platform/front-npm/pf-ui-icon.git"
   },
   "scripts": {
-    "clean": "./scripts/cleanup.sh",
-    "lint": "eslint src/ --ext .tsx,.ts",
+    "clean": "rimraf es && rimraf lib",
     "dev": "vite",
-    "prepublishOnly": "npm run lint && npm run generate && npm run build",
+    "prepublishOnly": "npm run generate && npm run build",
     "generate": "rm -rf src/icons && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
-    "build": "npm run clean && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=entry"
+    "build": "npm run clean && vite build"
   },
   "dependencies": {
     "pf-icon-svg": "^1.0.2"
@@ -34,11 +33,14 @@
     "vue": "^3.2.39"
   },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^14.1.0",
     "@types/node": "^18.7.18",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.3",
     "vite": "^3.1.1",
+    "vite-plugin-dts": "^1.5.0",
     "vue": "^3.2.39"
   }
 }

@@ -6,6 +6,11 @@
   "author": "xuzhudong <451547014@qq.com>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "es",
+    "lib",
+    "svg"
+  ],
   "scripts": {
     "generate": "cross-env NODE_ENV=production gulp --require ts-node/register/transpile-only",
     "type-check": "tsc --noEmit",

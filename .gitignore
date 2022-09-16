@@ -24,3 +24,5 @@ packages/icon-svg/src
 packages/icon-svg/es
 packages/icon-svg/lib
 
+packages/icons-vue/es
+packages/icons-vue/lib

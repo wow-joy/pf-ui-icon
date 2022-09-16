@@ -11,17 +11,17 @@
 
 ```bash
 # use yarn
-$ yarn add @pf-ui-icon/icon-svg
+$ yarn add pf-ui-icon
 
 # or use npm
-$ npm install @pf-ui-icon/icon-svg --save
+$ npm install pf-ui-icon --save
 ```
 
 ## Get started
 
 ```ts
-import { AccountBookOutlined } from '@pf-ui-icon/icon-svg'
-// import AccountBookOutlined from '@ant-design/icons-svg/es/asn/AccountBookOutlined';
+import { AccountBookOutlined } from 'pf-ui-icon'
+// import AccountBookOutlined from 'pf-ui-icon/es/asn/AccountBookOutlined';
 
 console.log(AccountBookOutlined);
 // ==>

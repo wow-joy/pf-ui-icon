@@ -30,7 +30,7 @@ const AllIconDemo = {
     console.log(this.currentTheme);
     return (
       <div class="all-icons-wrap" style={{ color: '#555' }}>
-        <h1 style={{ textAlign: 'center' }}>All Icons</h1>
+        <h2 style={{ textAlign: 'center' }}>All Icons</h2>
         <div class="container">{this.Icons}</div>
       </div>
     );
