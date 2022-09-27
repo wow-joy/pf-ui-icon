@@ -50,6 +50,7 @@ export { default as PrevFilled } from './PrevFilled';
 export { default as QuestionOutlined } from './QuestionOutlined';
 export { default as QuestionTwoTone } from './QuestionTwoTone';
 export { default as RarTwoTone } from './RarTwoTone';
+export { default as ReplaceFilled } from './ReplaceFilled';
 export { default as RequireFilled } from './RequireFilled';
 export { default as RetractFilled } from './RetractFilled';
 export { default as RightArrowFilled } from './RightArrowFilled';

@@ -20,11 +20,13 @@
     "url": "http://gitlab.wowjoy.com/platform/front-npm/pf-ui-icon.git"
   },
   "scripts": {
-    "clean": "rimraf es && rimraf lib",
+    "cleanup": "./scripts/cleanup.sh",
+    "clean": "rimraf es && rimraf lib && npm run cleanup",
     "dev": "vite",
     "prepublishOnly": "npm run generate && npm run build",
     "generate": "rm -rf src/icons && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
-    "build": "npm run clean && vite build"
+    "postbuild": "npm run cleanup && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=entry",
+    "build": "vite build"
   },
   "dependencies": {
     "pf-icon-svg": "^1.0.3"

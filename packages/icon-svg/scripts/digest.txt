@@ -48,6 +48,7 @@ prev-filled
 question-outlined
 question-twotone
 rar-twotone
+replace-filled
 require-filled
 retract-filled
 right-arrow-filled
