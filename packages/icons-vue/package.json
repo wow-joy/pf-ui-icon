@@ -11,10 +11,6 @@
   "directories": {
     "lib": "lib"
   },
-  "files": [
-    "lib",
-    "es"
-  ],
   "repository": {
     "type": "git",
     "url": "http://gitlab.wowjoy.com/platform/front-npm/pf-ui-icon.git"
