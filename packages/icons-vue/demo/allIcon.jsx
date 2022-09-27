@@ -14,7 +14,7 @@ const AllIconDemo = {
       return iconsList
         .map(Component => (
           <div class="card" key={Component.displayName}>
-            <Component style={{ fontSize: '24px' }} />
+            <Component style={{ fontSize: '24px', color: '#06aea6' }} />
             <p class="name-description">{Component.displayName}</p>
           </div>
         ));

@@ -3,8 +3,7 @@ import {
   clean,
   copy,
   generateIcons,
-  generateEntry,
-  generateInline
+  generateEntry
 } from './tasks';
 import { generalConfig, remainFillConfig } from './plugins/svgo/presets';
 import {
@@ -40,7 +39,7 @@ export default series(
       toDir: 'src/asn',
       svgoConfig: generalConfig,
       extraNodeTransformFactories: [
-        assignAttrsAtTag('svg', { focusable: 'false' }),
+        assignAttrsAtTag('svg', { focusable: 'false', fill: 'currentColor' }),
         adjustViewBox
       ],
       stringify: JSON.stringify,
@@ -59,7 +58,7 @@ export default series(
       toDir: 'src/asn',
       svgoConfig: generalConfig,
       extraNodeTransformFactories: [
-        assignAttrsAtTag('svg', { focusable: 'false' }),
+        assignAttrsAtTag('svg', { focusable: 'false', fill: 'currentColor' }),
         adjustViewBox
       ],
       stringify: JSON.stringify,
@@ -78,11 +77,10 @@ export default series(
       toDir: 'src/asn',
       svgoConfig: remainFillConfig,
       extraNodeTransformFactories: [
-        assignAttrsAtTag('svg', { focusable: 'false' }),
+        assignAttrsAtTag('svg', { focusable: 'false', fill: 'currentColor' }),
         adjustViewBox,
-        setDefaultColorAtPathTag('#333')
       ],
-      stringify: twotoneStringify,
+      stringify: JSON.stringify,
       template: iconTemplate,
       mapToInterpolate: ({ name, content }) => ({
         identifier: getIdentifier({ name, themeSuffix: 'TwoTone' }),

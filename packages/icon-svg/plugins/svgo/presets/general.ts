@@ -1,8 +1,10 @@
 import SVGO from 'svgo';
-// import { base } from './base';
+import { mergeRight } from 'ramda';
+import { base } from './base';
 
-export const generalConfig: SVGO.Options = {
+export const generalConfig: SVGO.Options = mergeRight(base, {
   plugins: [
-    { removeAttrs: { attrs: ['width', 'height', 'class']} }
+    ...(base.plugins || []),
+    { removeAttrs: { attrs: ['width', 'height', 'class', 'fill'] } }
   ]
-}
+});
