@@ -1,5 +1,5 @@
 <h1 align="center">
-  @pf-ui/pf-icon-vue
+  @pf-ui/pf-icons-vue
 </h1>
 
 <p align="center">
@@ -11,16 +11,16 @@
 
 ```bash
 # use yarn
-$ yarn add @pf-ui/pf-icon-vue
+$ yarn add @pf-ui/pf-icons-vue
 
 # or use npm
-$ npm install @pf-ui/pf-icon-vue --save
+$ npm install @pf-ui/pf-icons-vue --save
 ```
 
 ## Get started
 
 ```ts
-import SearchOutlined from '@pf-ui/pf-icon-vue/SearchOutlined'
+import SearchOutlined from '@pf-ui/pf-icons-vue/SearchOutlined'
 // import AccountBookOutlined from '@pf-ui/pf-icon-svg/es/asn/AccountBookOutlined';
 
 console.log(AccountBookOutlined);
