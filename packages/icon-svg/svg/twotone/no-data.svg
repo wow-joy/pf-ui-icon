@@ -1,20 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="62px" height="50px" viewBox="0 0 62 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Page 1</title>
-    <g id="9-列表&amp;表格" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="03-空页面提示" transform="translate(-482.000000, -552.000000)">
-            <g id="编组-10" transform="translate(145.000000, 396.000000)">
-                <g id="Group-7" transform="translate(337.500000, 156.500000)">
-                    <g id="Page-1" transform="translate(0.423029, 0.500000)">
-                        <polygon id="Fill-1" fill="#C8C8C8" points="31.3337647 -3.91050192e-05 31.3337647 16.4889833 52.5443529 8.12676597"></polygon>
-                        <polygon id="Fill-2" fill="#D3D3D3" points="31.3337647 -3.91050192e-05 6.47101961 8.12676597 5.98631373 8.91121266 26.5282745 18.3847946 31.3337647 16.4889833"></polygon>
-                        <polygon id="Fill-3" fill="#F4F4F4" points="26.5281176 47.8324773 53.6069412 36.2863294 54.0085991 21.1030227 31.0849804 30.5652651 26.5281176 18.2462148"></polygon>
-                        <polygon id="Fill-4" fill="#EAEAEA" points="26.2330588 18.5027744 26.5279608 18.9341028 31.0848235 30.5654997 59.7569804 19.2414683 52.5444314 8.12664866"></polygon>
-                        <polygon id="Fill-5" fill="#DDDDDD" points="22.430218 30.3412458 6.078 20.561031 6.078 35.8937932 26.5281961 47.570943 26.5281961 18.2776667"></polygon>
-                        <polygon id="Fill-6" fill="#EAEAEA" points="0 17.3649357 22.4364706 30.5718738 26.5282353 18.3847946 5.98627451 8.91121266"></polygon>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg version="1.1" width="100px" height="100px" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><clipPath id="i0"><path d="M1280,0 L1280,2420 L0,2420 L0,0 L1280,0 Z"></path></clipPath><clipPath id="i1"><path d="M0,0 L26.5132352,10.1585064 L0,20.611278 L0,0 Z"></path></clipPath><clipPath id="i2"><path d="M31.6843138,0 L31.6843138,20.611278 L25.677451,22.9810421 L0,11.1390647 L0.60588235,10.1585064 L31.6843138,0 Z"></path></clipPath><clipPath id="i3"><path d="M0,0 L5.69607842,15.3988128 L34.3506018,3.57100992 L33.8485294,22.5501433 L0,36.9828282 L0,0 Z"></path></clipPath><clipPath id="i4"><path d="M32.8892158,0 L41.904902,13.8935245 L6.06470592,28.0485637 L0.3686275,13.5093177 L0,12.9701573 L32.8892158,0 Z"></path></clipPath><clipPath id="i5"><path d="M25.5627451,0 L25.5627451,36.6165953 L0,22.0201581 L0,2.85420533 L20.4402725,15.0794738 L25.5627451,0 Z"></path></clipPath><clipPath id="i6"><path d="M7.48284313,0 L33.1602941,11.8419774 L28.0455883,27.0758264 L0,10.5671538 L7.48284313,0 Z"></path></clipPath></defs><g transform="translate(-365.0 -1720.0)"><g clip-path="url(#i0)"><g transform="translate(365.0 1720.0)"><g transform="translate(12.5 19.999951118726134)"><g transform="translate(39.16720591666666 0.0)"><g clip-path="url(#i1)"><polygon points="0,0 26.5132352,0 26.5132352,20.611278 0,20.611278 0,0" stroke="none" fill="#C8C8C8"></polygon></g></g><g transform="translate(7.482892158333357 0.0)"><g clip-path="url(#i2)"><polygon points="0,0 31.6843138,0 31.6843138,22.9810421 0,22.9810421 0,0" stroke="none" fill="#D3D3D3"></polygon></g></g><g transform="translate(33.16014708333336 22.80781738127394)"><g clip-path="url(#i3)"><polygon points="0,0 34.3506018,0 34.3506018,36.9828282 0,36.9828282 0,0" stroke="none" fill="#F3F3F3"></polygon></g></g><g transform="translate(32.79132349999998 10.15835971460729)"><g clip-path="url(#i4)"><polygon points="0,0 41.904902,0 41.904902,28.0485637 0,28.0485637 0,0" stroke="none" fill="#EAEAEA"></polygon></g></g><g transform="translate(7.597500000000025 22.84713229794056)"><g clip-path="url(#i5)"><polygon points="0,0 25.5627451,0 25.5627451,36.6165953 0,36.6165953 0,0" stroke="none" fill="#DDDDDD"></polygon></g></g><g transform="translate(0.0 11.139064714607231)"><g clip-path="url(#i6)"><polygon points="0,0 33.1602941,0 33.1602941,27.0758264 0,27.0758264 0,0" stroke="none" fill="#EAEAEA"></polygon></g></g></g></g></g></g></svg>
