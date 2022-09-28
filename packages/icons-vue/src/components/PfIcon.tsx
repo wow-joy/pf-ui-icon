@@ -37,12 +37,12 @@ const Icon: PfIconType = (props, context) => {
     ...restProps
   } = { ...props, ...context.attrs } as any;
   const classObj = {
-    anticon: true,
-    [`anticon-${icon.name}`]: Boolean(icon.name),
+    pf-anticon: true,
+    [`pf-anticon-${icon.name}`]: Boolean(icon.name),
     [cls]: cls,
   };
 
-  const svgClassString = spin === '' || !!spin || icon.name === 'loading' ? 'anticon-spin' : '';
+  const svgClassString = spin === '' || !!spin || icon.name === 'loading' ? 'pf-anticon-spin' : '';
 
   let iconTabIndex = tabindex;
   if (iconTabIndex === undefined && onClick) {

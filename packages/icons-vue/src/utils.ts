@@ -89,41 +89,40 @@ export const svgBaseProps = {
 } as any;
 
 export const iconStyles = `
-.anticon {
+.pf-anticon {
   display: inline-block;
   color: inherit;
   font-style: normal;
   line-height: 0;
   text-align: center;
   text-transform: none;
-  vertical-align: -0.125em;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.anticon > * {
+.pf-anticon > * {
   line-height: 1;
 }
 
-.anticon svg {
+.pf-anticon svg {
   display: inline-block;
 }
 
-.anticon::before {
+.pf-anticon::before {
   display: none;
 }
 
-.anticon .anticon-icon {
+.pf-anticon .pf-anticon-icon {
   display: block;
 }
 
-.anticon[tabindex] {
+.pf-anticon[tabindex] {
   cursor: pointer;
 }
 
-.anticon-spin::before,
-.anticon-spin {
+.pf-anticon-spin::before,
+.pf-anticon-spin {
   display: inline-block;
   -webkit-animation: loadingCircle 1s infinite linear;
   animation: loadingCircle 1s infinite linear;
