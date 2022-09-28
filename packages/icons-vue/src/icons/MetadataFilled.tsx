@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import MetadataFilledSvg from 'pf-icon-svg/es/asn/MetadataFilled';
+import MetadataFilledSvg from '@pf-ui/pf-icon-svg/es/asn/MetadataFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface MetadataFilledIconType extends FunctionalComponent<PfIconProps> {

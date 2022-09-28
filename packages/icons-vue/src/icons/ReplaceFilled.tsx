@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import ReplaceFilledSvg from 'pf-icon-svg/es/asn/ReplaceFilled';
+import ReplaceFilledSvg from '@pf-ui/pf-icon-svg/es/asn/ReplaceFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface ReplaceFilledIconType extends FunctionalComponent<PfIconProps> {

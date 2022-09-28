@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import CalendarOutlinedSvg from 'pf-icon-svg/es/asn/CalendarOutlined';
+import CalendarOutlinedSvg from '@pf-ui/pf-icon-svg/es/asn/CalendarOutlined';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface CalendarOutlinedIconType extends FunctionalComponent<PfIconProps> {

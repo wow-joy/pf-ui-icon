@@ -1,5 +1,5 @@
 <h1 align="center">
-  pf-ui-icon
+  @pf-ui/pf-icon-svg
 </h1>
 
 <p align="center">
@@ -11,17 +11,17 @@
 
 ```bash
 # use yarn
-$ yarn add pf-ui-icon
+$ yarn add @pf-ui/pf-icon-svg
 
 # or use npm
-$ npm install pf-ui-icon --save
+$ npm install @pf-ui/pf-icon-svg --save
 ```
 
 ## Get started
 
 ```ts
-import { AccountBookOutlined } from 'pf-ui-icon'
-// import AccountBookOutlined from 'pf-ui-icon/es/asn/AccountBookOutlined';
+import { AccountBookOutlined } from '@pf-ui/pf-icon-svg'
+// import AccountBookOutlined from '@pf-ui/pf-icon-svg/es/asn/AccountBookOutlined';
 
 console.log(AccountBookOutlined);
 // ==>

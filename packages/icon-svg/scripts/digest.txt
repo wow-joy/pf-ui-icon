@@ -53,6 +53,7 @@ require-filled
 retract-filled
 right-arrow-filled
 right-filled
+right2-filled
 search-no-data-twotone
 search-outlined
 set-outlined

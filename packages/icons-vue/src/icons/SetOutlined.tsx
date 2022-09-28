@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import SetOutlinedSvg from 'pf-icon-svg/es/asn/SetOutlined';
+import SetOutlinedSvg from '@pf-ui/pf-icon-svg/es/asn/SetOutlined';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface SetOutlinedIconType extends FunctionalComponent<PfIconProps> {

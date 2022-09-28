@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import OppositeFilledSvg from 'pf-icon-svg/es/asn/OppositeFilled';
+import OppositeFilledSvg from '@pf-ui/pf-icon-svg/es/asn/OppositeFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface OppositeFilledIconType extends FunctionalComponent<PfIconProps> {

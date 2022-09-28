@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import ZipTwoToneSvg from 'pf-icon-svg/es/asn/ZipTwoTone';
+import ZipTwoToneSvg from '@pf-ui/pf-icon-svg/es/asn/ZipTwoTone';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface ZipTwoToneIconType extends FunctionalComponent<PfIconProps> {

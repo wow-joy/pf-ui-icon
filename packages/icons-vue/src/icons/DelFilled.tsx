@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import DelFilledSvg from 'pf-icon-svg/es/asn/DelFilled';
+import DelFilledSvg from '@pf-ui/pf-icon-svg/es/asn/DelFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface DelFilledIconType extends FunctionalComponent<PfIconProps> {

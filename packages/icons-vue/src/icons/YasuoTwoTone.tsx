@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import YasuoTwoToneSvg from 'pf-icon-svg/es/asn/YasuoTwoTone';
+import YasuoTwoToneSvg from '@pf-ui/pf-icon-svg/es/asn/YasuoTwoTone';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface YasuoTwoToneIconType extends FunctionalComponent<PfIconProps> {

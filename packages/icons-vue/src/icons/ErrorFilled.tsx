@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import ErrorFilledSvg from 'pf-icon-svg/es/asn/ErrorFilled';
+import ErrorFilledSvg from '@pf-ui/pf-icon-svg/es/asn/ErrorFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface ErrorFilledIconType extends FunctionalComponent<PfIconProps> {

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import AlertTwoToneSvg from 'pf-icon-svg/es/asn/AlertTwoTone';
+import AlertTwoToneSvg from '@pf-ui/pf-icon-svg/es/asn/AlertTwoTone';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface AlertTwoToneIconType extends FunctionalComponent<PfIconProps> {

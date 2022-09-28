@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import AlertOutlinedSvg from 'pf-icon-svg/es/asn/AlertOutlined';
+import AlertOutlinedSvg from '@pf-ui/pf-icon-svg/es/asn/AlertOutlined';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface AlertOutlinedIconType extends FunctionalComponent<PfIconProps> {

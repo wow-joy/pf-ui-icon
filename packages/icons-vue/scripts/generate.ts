@@ -1,5 +1,5 @@
-import * as allIconDefs from 'pf-icon-svg';
-import { IconDefinition } from 'pf-icon-svg/es/types';
+import * as allIconDefs from '@pf-ui/pf-icon-svg';
+import { IconDefinition } from '@pf-ui/pf-icon-svg/es/types';
 import * as path from 'path';
 import * as fs from 'fs';
 import { promisify } from 'util';
@@ -35,7 +35,7 @@ async function generateIcons() {
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import <%= svgIdentifier %>Svg from 'pf-icon-svg/es/asn/<%= svgIdentifier %>';
+import <%= svgIdentifier %>Svg from '@pf-ui/pf-icon-svg/es/asn/<%= svgIdentifier %>';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface <%= svgIdentifier %>IconType extends FunctionalComponent<PfIconProps> {

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import PptTwoToneSvg from 'pf-icon-svg/es/asn/PptTwoTone';
+import PptTwoToneSvg from '@pf-ui/pf-icon-svg/es/asn/PptTwoTone';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface PptTwoToneIconType extends FunctionalComponent<PfIconProps> {

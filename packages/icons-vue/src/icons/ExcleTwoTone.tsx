@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import ExcleTwoToneSvg from 'pf-icon-svg/es/asn/ExcleTwoTone';
+import ExcleTwoToneSvg from '@pf-ui/pf-icon-svg/es/asn/ExcleTwoTone';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface ExcleTwoToneIconType extends FunctionalComponent<PfIconProps> {

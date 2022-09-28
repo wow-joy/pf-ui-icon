@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import PrevFilledSvg from 'pf-icon-svg/es/asn/PrevFilled';
+import PrevFilledSvg from '@pf-ui/pf-icon-svg/es/asn/PrevFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface PrevFilledIconType extends FunctionalComponent<PfIconProps> {

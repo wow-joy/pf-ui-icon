@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import SuccessOutlinedSvg from 'pf-icon-svg/es/asn/SuccessOutlined';
+import SuccessOutlinedSvg from '@pf-ui/pf-icon-svg/es/asn/SuccessOutlined';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface SuccessOutlinedIconType extends FunctionalComponent<PfIconProps> {

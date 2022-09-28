@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import ArrowDownFilledSvg from 'pf-icon-svg/es/asn/ArrowDownFilled';
+import ArrowDownFilledSvg from '@pf-ui/pf-icon-svg/es/asn/ArrowDownFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface ArrowDownFilledIconType extends FunctionalComponent<PfIconProps> {

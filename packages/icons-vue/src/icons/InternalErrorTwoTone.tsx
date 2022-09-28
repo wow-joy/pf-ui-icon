@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import InternalErrorTwoToneSvg from 'pf-icon-svg/es/asn/InternalErrorTwoTone';
+import InternalErrorTwoToneSvg from '@pf-ui/pf-icon-svg/es/asn/InternalErrorTwoTone';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface InternalErrorTwoToneIconType extends FunctionalComponent<PfIconProps> {

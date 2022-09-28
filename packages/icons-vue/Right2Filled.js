@@ -1,0 +1,1 @@
+export { default } from './es/icons/Right2Filled';

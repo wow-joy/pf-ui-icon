@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import NotFoundTwoToneSvg from 'pf-icon-svg/es/asn/NotFoundTwoTone';
+import NotFoundTwoToneSvg from '@pf-ui/pf-icon-svg/es/asn/NotFoundTwoTone';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface NotFoundTwoToneIconType extends FunctionalComponent<PfIconProps> {

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import CloseFilledSvg from 'pf-icon-svg/es/asn/CloseFilled';
+import CloseFilledSvg from '@pf-ui/pf-icon-svg/es/asn/CloseFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface CloseFilledIconType extends FunctionalComponent<PfIconProps> {

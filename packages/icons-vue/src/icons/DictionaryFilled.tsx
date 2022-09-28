@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import DictionaryFilledSvg from 'pf-icon-svg/es/asn/DictionaryFilled';
+import DictionaryFilledSvg from '@pf-ui/pf-icon-svg/es/asn/DictionaryFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface DictionaryFilledIconType extends FunctionalComponent<PfIconProps> {

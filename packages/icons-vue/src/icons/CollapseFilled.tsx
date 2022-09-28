@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import CollapseFilledSvg from 'pf-icon-svg/es/asn/CollapseFilled';
+import CollapseFilledSvg from '@pf-ui/pf-icon-svg/es/asn/CollapseFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface CollapseFilledIconType extends FunctionalComponent<PfIconProps> {

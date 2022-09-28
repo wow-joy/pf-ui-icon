@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import RarTwoToneSvg from 'pf-icon-svg/es/asn/RarTwoTone';
+import RarTwoToneSvg from '@pf-ui/pf-icon-svg/es/asn/RarTwoTone';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface RarTwoToneIconType extends FunctionalComponent<PfIconProps> {

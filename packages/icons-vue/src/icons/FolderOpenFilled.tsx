@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import FolderOpenFilledSvg from 'pf-icon-svg/es/asn/FolderOpenFilled';
+import FolderOpenFilledSvg from '@pf-ui/pf-icon-svg/es/asn/FolderOpenFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface FolderOpenFilledIconType extends FunctionalComponent<PfIconProps> {

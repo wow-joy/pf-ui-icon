@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import RightArrowFilledSvg from 'pf-icon-svg/es/asn/RightArrowFilled';
+import RightArrowFilledSvg from '@pf-ui/pf-icon-svg/es/asn/RightArrowFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface RightArrowFilledIconType extends FunctionalComponent<PfIconProps> {

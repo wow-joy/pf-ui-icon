@@ -53,6 +53,7 @@ export { default as RarTwoTone } from './RarTwoTone';
 export { default as ReplaceFilled } from './ReplaceFilled';
 export { default as RequireFilled } from './RequireFilled';
 export { default as RetractFilled } from './RetractFilled';
+export { default as Right2Filled } from './Right2Filled';
 export { default as RightArrowFilled } from './RightArrowFilled';
 export { default as RightFilled } from './RightFilled';
 export { default as SearchNoDataTwoTone } from './SearchNoDataTwoTone';

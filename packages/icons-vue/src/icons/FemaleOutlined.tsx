@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import FemaleOutlinedSvg from 'pf-icon-svg/es/asn/FemaleOutlined';
+import FemaleOutlinedSvg from '@pf-ui/pf-icon-svg/es/asn/FemaleOutlined';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface FemaleOutlinedIconType extends FunctionalComponent<PfIconProps> {

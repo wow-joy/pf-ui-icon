@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import ZoomFilledSvg from 'pf-icon-svg/es/asn/ZoomFilled';
+import ZoomFilledSvg from '@pf-ui/pf-icon-svg/es/asn/ZoomFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface ZoomFilledIconType extends FunctionalComponent<PfIconProps> {

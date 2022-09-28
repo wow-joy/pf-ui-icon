@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import LoadingFilledSvg from 'pf-icon-svg/es/asn/LoadingFilled';
+import LoadingFilledSvg from '@pf-ui/pf-icon-svg/es/asn/LoadingFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface LoadingFilledIconType extends FunctionalComponent<PfIconProps> {

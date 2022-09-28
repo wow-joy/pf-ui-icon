@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import NextOutlinedSvg from 'pf-icon-svg/es/asn/NextOutlined';
+import NextOutlinedSvg from '@pf-ui/pf-icon-svg/es/asn/NextOutlined';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface NextOutlinedIconType extends FunctionalComponent<PfIconProps> {

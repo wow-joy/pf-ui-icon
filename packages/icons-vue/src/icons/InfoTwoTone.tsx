@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import InfoTwoToneSvg from 'pf-icon-svg/es/asn/InfoTwoTone';
+import InfoTwoToneSvg from '@pf-ui/pf-icon-svg/es/asn/InfoTwoTone';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface InfoTwoToneIconType extends FunctionalComponent<PfIconProps> {

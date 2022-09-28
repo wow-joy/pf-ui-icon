@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import NoDataTwoToneSvg from 'pf-icon-svg/es/asn/NoDataTwoTone';
+import NoDataTwoToneSvg from '@pf-ui/pf-icon-svg/es/asn/NoDataTwoTone';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface NoDataTwoToneIconType extends FunctionalComponent<PfIconProps> {

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import SearchOutlinedSvg from 'pf-icon-svg/es/asn/SearchOutlined';
+import SearchOutlinedSvg from '@pf-ui/pf-icon-svg/es/asn/SearchOutlined';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface SearchOutlinedIconType extends FunctionalComponent<PfIconProps> {

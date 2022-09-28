@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import ErrorOutlinedSvg from 'pf-icon-svg/es/asn/ErrorOutlined';
+import ErrorOutlinedSvg from '@pf-ui/pf-icon-svg/es/asn/ErrorOutlined';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface ErrorOutlinedIconType extends FunctionalComponent<PfIconProps> {

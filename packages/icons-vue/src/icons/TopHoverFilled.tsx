@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import { FunctionalComponent } from 'vue';
-import TopHoverFilledSvg from 'pf-icon-svg/es/asn/TopHoverFilled';
+import TopHoverFilledSvg from '@pf-ui/pf-icon-svg/es/asn/TopHoverFilled';
 import PfIcon, { PfIconProps } from '../components/PfIcon';
 
 export interface TopHoverFilledIconType extends FunctionalComponent<PfIconProps> {
