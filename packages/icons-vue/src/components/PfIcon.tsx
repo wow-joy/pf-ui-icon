@@ -37,7 +37,7 @@ const Icon: PfIconType = (props, context) => {
     ...restProps
   } = { ...props, ...context.attrs } as any;
   const classObj = {
-    pf-anticon: true,
+    'pf-anticon': true,
     [`pf-anticon-${icon.name}`]: Boolean(icon.name),
     [cls]: cls,
   };
