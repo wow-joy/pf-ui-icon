@@ -43,7 +43,7 @@ const Icon: IconType = (props, context) => {
   useInsertStyles();
 
   const classString = {
-    pf-anticon: true,
+    'pf-anticon': true,
     [cls]: cls,
   };
 
