@@ -5,3 +5,8 @@
 <p align="center">
 ⭐ The abstract node of SVG icons.
 </p>
+
+
+发布命令: 
+  1. lerna run build
+  2. lerna publish 
