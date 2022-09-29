@@ -8,6 +8,5 @@
 
 
 发布流程: 
-  1. lerna run build
-  2. 提交代码推送到远程仓库
-  3. lerna publish 
+  1. 提交代码(commit)
+  2. lerna run build && lerna publish 
