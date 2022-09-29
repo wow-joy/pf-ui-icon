@@ -5,6 +5,7 @@ const defaultColors = {
   secondaryColor: '#E6E6E6'
 };
 
+
 function renderAbstractNodeToSVGElement(
   node: AbstractNode,
   options: HelperRenderOptions
