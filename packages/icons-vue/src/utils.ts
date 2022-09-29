@@ -89,7 +89,7 @@ export const svgBaseProps = {
 } as any;
 
 export const iconStyles = `
-.pf-anticon {
+.anticon {
   display: inline-block;
   color: inherit;
   font-style: normal;
@@ -101,28 +101,28 @@ export const iconStyles = `
   -moz-osx-font-smoothing: grayscale;
 }
 
-.pf-anticon > * {
+.anticon > * {
   line-height: 1;
 }
 
-.pf-anticon svg {
+.anticon svg {
   display: inline-block;
 }
 
-.pf-anticon::before {
+.anticon::before {
   display: none;
 }
 
-.pf-anticon .pf-anticon-icon {
+.anticon .anticon-icon {
   display: block;
 }
 
-.pf-anticon[tabindex] {
+.anticon[tabindex] {
   cursor: pointer;
 }
 
-.pf-anticon-spin::before,
-.pf-anticon-spin {
+.anticon-spin::before,
+.anticon-spin {
   display: inline-block;
   -webkit-animation: loadingCircle 1s infinite linear;
   animation: loadingCircle 1s infinite linear;

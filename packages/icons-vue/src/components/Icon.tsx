@@ -43,12 +43,12 @@ const Icon: IconType = (props, context) => {
   useInsertStyles();
 
   const classString = {
-    'pf-anticon': true,
+    'anticon': true,
     [cls]: cls,
   };
 
   const svgClassString = {
-    'pf-anticon-spin': spin === '' || !!spin,
+    'anticon-spin': spin === '' || !!spin,
   };
   const svgStyle = rotate
     ? {
