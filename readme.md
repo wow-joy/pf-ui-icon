@@ -7,6 +7,7 @@
 </p>
 
 
-发布命令: 
+发布流程: 
   1. lerna run build
-  2. lerna publish 
+  2. 提交代码推送到远程仓库
+  3. lerna publish 
