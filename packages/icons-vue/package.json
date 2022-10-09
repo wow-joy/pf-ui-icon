@@ -1,6 +1,6 @@
 {
   "name": "@pf-ui/pf-icons-vue",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "private": false,
   "description": "支持vue3的icon库",
   "author": "xuzhudong <451547014@qq.com>",
@@ -25,7 +25,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@pf-ui/pf-icon-svg": "^1.1.11"
+    "@pf-ui/pf-icon-svg": "^1.1.12"
   },
   "peerDependencies": {
     "vue": "^3.2.39"
