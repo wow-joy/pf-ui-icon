@@ -21,7 +21,7 @@ export { default as FemaleOutlined } from './FemaleOutlined';
 export { default as FolderFilled } from './FolderFilled';
 export { default as FolderOpenFilled } from './FolderOpenFilled';
 export { default as HelpFilled } from './HelpFilled';
-export { default as HomepageTwoTone } from './HomepageTwoTone';
+export { default as HomepageOutlined } from './HomepageOutlined';
 export { default as HospitalFilled } from './HospitalFilled';
 export { default as ImportFilled } from './ImportFilled';
 export { default as InfoOutlined } from './InfoOutlined';

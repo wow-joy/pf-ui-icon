@@ -19,7 +19,7 @@ female-outlined
 folder-filled
 folder-open-filled
 help-filled
-homepage-twotone
+homepage-outlined
 hospital-filled
 import-filled
 info-outlined

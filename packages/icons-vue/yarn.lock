@@ -397,11 +397,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pf-ui/pf-icon-svg@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@pf-ui/pf-icon-svg/-/pf-icon-svg-1.1.4.tgz#983279a1f93e157abb2385113138c8dacfc91701"
-  integrity sha512-eWvqLDybweyD5vU60tglJoe25ZFhhpebZ3XblYZtCMI127U3h0gr15c2aekY7Mi54fWHhebGqTRQfBcBNbbYSw==
-
 "@rollup/plugin-node-resolve@^14.1.0":
   version "14.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-14.1.0.tgz#f2fa475405cd7fed6420bf438fe393f988a9bc96"

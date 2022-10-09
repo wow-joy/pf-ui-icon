@@ -54,8 +54,7 @@ export const svg2Definition = ({
   extraNodeTransformFactories,
   stringify
 }: SVG2DefinitionOptions) =>
-  createTrasformStream((SVGString, { stem: name }) =>
-    applyTo(SVGString)(
+  createTrasformStream((SVGString, { stem: name }) => applyTo(SVGString)(
       pipe(
         // 0. The SVG string is like that:
         // <svg viewBox="0 0 1024 1024"><path d="..."/></svg>
@@ -138,8 +137,7 @@ function element2AbstractNode({
   theme,
   extraNodeTransformFactories
 }: XML2AbstractNodeOptions) {
-  return ({ name: tag, attributes, children }: Element): AbstractNode =>
-    applyTo(extraNodeTransformFactories)(
+  return ({ name: tag, attributes, children }: Element): AbstractNode => applyTo(extraNodeTransformFactories)(
       pipe(
         map((factory: TransformFactory) => factory({ name, theme })),
         reduce(
