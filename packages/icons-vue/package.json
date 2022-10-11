@@ -16,12 +16,12 @@
     "url": "http://gitlab.wowjoy.com/platform/front-npm/pf-ui-icon.git"
   },
   "scripts": {
-    "cleanup": "./scripts/cleanup.sh",
+    "cleanup": "cross-env ./scripts/cleanup.sh",
     "clean": "rimraf es && rimraf lib && npm run cleanup",
     "dev": "vite",
     "prepublishOnly": "npm run generate && npm run build",
-    "generate": "rm -rf src/icons && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
-    "postbuild": "npm run cleanup && TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=entry",
+    "generate": "rm -rf src/icons && cross-env TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
+    "postbuild": "npm run cleanup && cross-env TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=entry",
     "build": "vite build"
   },
   "dependencies": {
@@ -34,6 +34,7 @@
     "@rollup/plugin-node-resolve": "^14.1.0",
     "@types/node": "^18.7.18",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "cross-env": "^7.0.3",
     "less": "^4.1.3",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
