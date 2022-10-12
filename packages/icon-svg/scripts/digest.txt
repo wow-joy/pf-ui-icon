@@ -3,6 +3,8 @@ add-filled
 alert-outlined
 alert-twotone
 arrow-down-filled
+arrow-left-outlined
+arrow-right-outlined
 calendar-outlined
 close-filled
 collapse-filled
@@ -32,12 +34,14 @@ male-outlined
 menu-filled
 message-filled
 metadata-filled
+minus-outlined
 more-filled
 msg-twotone
 next-outlined
 no-data-twotone
 no-result-twotone
 not-found-twotone
+one-to-one-outlined
 open-filled
 opposite-filled
 pdf-twotone
@@ -54,6 +58,8 @@ retract-filled
 right-arrow-filled
 right-filled
 right2-filled
+rotate-left-outlined
+rotate-right-outlined
 search-no-data-twotone
 search-outlined
 set-outlined
