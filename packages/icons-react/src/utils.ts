@@ -1,19 +1,13 @@
-import { nextTick, h } from 'vue';
-import { AbstractNode, IconDefinition } from '@pf-ui/pf-icon-svg/lib/types';
-import insertCss from './insert-css';
+import type { AbstractNode, IconDefinition } from '@pf-ui/pf-icon-svg/lib/types';
+import React, { useContext, useEffect } from 'react';
+import warn from 'rc-util/lib/warning';
+import { updateCSS } from 'rc-util/lib/Dom/dynamicCSS';
+import IconContext from './components/Context';
 
-export function warn(valid: boolean, message: string): void {
-  // Support uglify
-  if (process.env.NODE_ENV !== 'production' && !valid && console !== undefined) {
-    console.error(`Warning: ${message}`);
-  }
+export function warning(valid: boolean, message: string) {
+  warn(valid, `[@pf-ui/pf-icons-react] ${message}`);
 }
 
-export function warning(valid: boolean, message: string): void {
-  warn(valid, `[@pf-ui/pf-icons-vue] ${message}`);
-}
-
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export function isIconDefinition(target: any): target is IconDefinition {
   return (
     typeof target === 'object' &&
@@ -37,31 +31,29 @@ export function normalizeAttrs(attrs: Attrs = {}): Attrs {
     return acc;
   }, {});
 }
+
 export interface Attrs {
   [key: string]: string;
 }
-export type StringKeyOf<T> = Extract<keyof T, string>;
-export type EventHandlers<E> = {
-  [K in StringKeyOf<E>]?: E[K] extends () => any ? E[K] : (payload: E[K]) => void;
-};
+
 export function generate(
   node: AbstractNode,
   key: string,
   rootProps?: { [key: string]: any } | false,
 ): any {
   if (!rootProps) {
-    return h(
+    return React.createElement(
       node.tag,
-      { key, ...node.attrs },
+      { key, ...normalizeAttrs(node.attrs) },
       (node.children || []).map((child, index) => generate(child, `${key}-${node.tag}-${index}`)),
     );
   }
-  return h(
+  return React.createElement(
     node.tag,
     {
       key,
+      ...normalizeAttrs(node.attrs),
       ...rootProps,
-      ...node.attrs,
     },
     (node.children || []).map((child, index) => generate(child, `${key}-${node.tag}-${index}`)),
   );
@@ -86,7 +78,7 @@ export const svgBaseProps = {
   fill: 'currentColor',
   'aria-hidden': 'true',
   focusable: 'false',
-} as any;
+};
 
 export const iconStyles = `
 .anticon {
@@ -96,6 +88,7 @@ export const iconStyles = `
   line-height: 0;
   text-align: center;
   text-transform: none;
+  vertical-align: -0.125em;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -143,17 +136,13 @@ export const iconStyles = `
 }
 `;
 
-let cssInjectedFlag = false;
+export const useInsertStyles = (styleStr: string = iconStyles) => {
+  const { csp } = useContext(IconContext);
 
-export const useInsertStyles = (styleStr: string = iconStyles): void => {
-  nextTick(() => {
-    if (!cssInjectedFlag) {
-      if (typeof window !== 'undefined' && window.document && window.document.documentElement) {
-        insertCss(styleStr, {
-          prepend: true,
-        });
-      }
-      cssInjectedFlag = true;
-    }
-  });
+  useEffect(() => {
+    updateCSS(styleStr, '@pf-ui/pf-icons-react', {
+      prepend: true,
+      csp,
+    });
+  }, []);
 };
