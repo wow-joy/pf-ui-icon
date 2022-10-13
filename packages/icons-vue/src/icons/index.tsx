@@ -25,6 +25,7 @@ export { default as FolderOpenFilled } from './FolderOpenFilled';
 export { default as HelpFilled } from './HelpFilled';
 export { default as HomepageOutlined } from './HomepageOutlined';
 export { default as HospitalFilled } from './HospitalFilled';
+export { default as IdcardTwoTone } from './IdcardTwoTone';
 export { default as ImportFilled } from './ImportFilled';
 export { default as InfoOutlined } from './InfoOutlined';
 export { default as InfoTwoTone } from './InfoTwoTone';

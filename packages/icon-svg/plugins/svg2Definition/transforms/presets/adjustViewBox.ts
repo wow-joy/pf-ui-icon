@@ -14,7 +14,8 @@ const SPECIAL_ICON_NAMES = {
   'one-to-one': '0 0 1024 1024',
   'rotate-left': '0 0 1024 1024',
   'rotate-right': '0 0 1024 1024',
-  'minus': '0 0 1024 1024'
+  'minus': '0 0 1024 1024',
+  'idcard': '0 0 148 95'
 };
 
 export const adjustViewBox: TransformFactory = assignAttrsAtTag(
