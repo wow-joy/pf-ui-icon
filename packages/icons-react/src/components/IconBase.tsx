@@ -1,12 +1,17 @@
-import { generate, isIconDefinition, warning, useInsertStyles } from '../utils';
+import * as React from 'react';
 import { AbstractNode, IconDefinition } from '@pf-ui/pf-icon-svg/lib/types';
-import { CSSProperties, FunctionalComponent, PropType } from 'vue';
+import {
+  generate,
+  isIconDefinition,
+  warning,
+  useInsertStyles,
+} from '../utils';
 
 export interface IconProps {
   icon: IconDefinition;
-  class?: string;
-  onClick?: (e?: Event) => void;
-  style?: CSSProperties;
+  className?: string;
+  onClick?: React.MouseEventHandler<SVGSVGElement>;
+  style?: React.CSSProperties;
   primaryColor?: string; // only for two-tone
   secondaryColor?: string; // only for two-tone
   focusable?: string;
@@ -27,7 +32,10 @@ const twoToneColorPalette: TwoToneColorPalette = {
   calculated: false,
 };
 
-function setTwoToneColors({ primaryColor, secondaryColor }: TwoToneColorPaletteSetter): void {
+function setTwoToneColors({
+  primaryColor,
+  secondaryColor,
+}: TwoToneColorPaletteSetter) {
   twoToneColorPalette.primaryColor = primaryColor;
   twoToneColorPalette.secondaryColor = secondaryColor
   twoToneColorPalette.calculated = !!secondaryColor;
@@ -39,31 +47,36 @@ function getTwoToneColors(): TwoToneColorPalette {
   };
 }
 
-interface Color {
-  getTwoToneColors: () => TwoToneColorPalette;
-  setTwoToneColors: (twoToneColors: TwoToneColorPaletteSetter) => void;
+interface IconBaseComponent<P> extends React.FC<P> {
+  getTwoToneColors: typeof getTwoToneColors;
+  setTwoToneColors: typeof setTwoToneColors;
 }
 
-export interface IconBaseType extends Color, FunctionalComponent<IconProps> {
-  displayName: string;
-}
-const IconBase: IconBaseType = (props, context) => {
-  const { icon, primaryColor, secondaryColor, ...restProps } = {
-    ...props,
-    ...context.attrs,
-  } as any;
+const IconBase: IconBaseComponent<IconProps> = props => {
+  const {
+    icon,
+    className,
+    onClick,
+    style,
+    primaryColor,
+    secondaryColor,
+    ...restProps
+  } = props;
 
-  let colors = twoToneColorPalette;
+  let colors: TwoToneColorPalette = twoToneColorPalette;
   if (primaryColor) {
     colors = {
       primaryColor,
-      secondaryColor: secondaryColor
+      secondaryColor: secondaryColor,
     };
   }
 
   useInsertStyles();
 
-  warning(isIconDefinition(icon), `icon should be icon definiton, but got ${icon}`);
+  warning(
+    isIconDefinition(icon),
+    `icon should be icon definiton, but got ${icon}`,
+  );
 
   if (!isIconDefinition(icon)) {
     return null;
@@ -76,25 +89,19 @@ const IconBase: IconBaseType = (props, context) => {
       icon: target.icon(colors.primaryColor, colors.secondaryColor),
     };
   }
-
   return generate(target.icon as AbstractNode, `svg-${target.name}`, {
-    ...restProps,
+    className,
+    onClick,
+    style,
     'data-icon': target.name,
     width: '1em',
     height: '1em',
     fill: 'currentColor',
-    'aria-hidden': 'true',
+    'aria-hidden': 'true', // 根据辅助隐藏页面的icon内容
+    ...restProps,
   });
-  // },
 };
 
-IconBase.props = {
-  icon: Object as PropType<IconDefinition>,
-  primaryColor: String as PropType<string>,
-  secondaryColor: String as PropType<string>,
-  focusable: String as PropType<string>,
-};
-IconBase.inheritAttrs = false;
 IconBase.displayName = 'IconBase';
 IconBase.getTwoToneColors = getTwoToneColors;
 IconBase.setTwoToneColors = setTwoToneColors;
