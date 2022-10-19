@@ -5,8 +5,10 @@ alert-twotone
 arrow-down-filled
 arrow-left-outlined
 arrow-right-outlined
+arrow-top-twotone
 calendar-outlined
 close-filled
+close1-twotone
 collapse-filled
 del-filled
 delete-twotone
