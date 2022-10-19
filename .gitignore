@@ -23,9 +23,12 @@ lerna-debug.log
 packages/icon-svg/src
 packages/icon-svg/es
 packages/icon-svg/lib
+packages/icon-svg/**.js
 
 packages/icons-vue/es
 packages/icons-vue/lib
 
+packages/icons-react/es
+packages/icons-react/lib
 
 .history
