@@ -17,6 +17,7 @@ const SPECIAL_ICON_NAMES = {
   'minus': '0 0 1024 1024',
   'arrow-top': '0 0 16 16',
   'close1': '0 0 40 40',
+  'idcard': '0 0 148 95'
 };
 
 export const adjustViewBox: TransformFactory = assignAttrsAtTag(

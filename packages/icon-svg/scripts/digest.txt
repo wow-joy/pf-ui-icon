@@ -25,6 +25,7 @@ folder-open-filled
 help-filled
 homepage-outlined
 hospital-filled
+idcard-twotone
 import-filled
 info-outlined
 info-twotone
