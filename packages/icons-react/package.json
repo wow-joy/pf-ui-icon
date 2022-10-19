@@ -55,5 +55,9 @@
   "repository": {
     "type": "git",
     "url": "http://gitlab.wowjoy.com/platform/front-npm/pf-ui-icon.git"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "4d9c8bb91d26e76ef266f2ec0d3a911ec04f5697"
 }
