@@ -397,10 +397,8 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pf-ui/pf-icon-svg@^1.1.18":
-  version "1.1.18"
-  resolved "https://registry.yarnpkg.com/@pf-ui/pf-icon-svg/-/pf-icon-svg-1.1.18.tgz#d728d01ef306e957e655d5bd8fbb06ba47459f73"
-  integrity sha512-J2/oAG+ezEVPYjA/zP9xw3Ms92pZ37uf3en2Rz5/pSrv2Q81eR7hwuSTs5Lixr5xbMX2kdD0WnnuqEbqYTlyew==
+"@pf-ui/pf-icon-svg@file:.yalc/@pf-ui/pf-icon-svg":
+  version "1.1.20"
 
 "@rollup/plugin-node-resolve@^14.1.0":
   version "14.1.0"
