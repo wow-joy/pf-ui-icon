@@ -22,6 +22,8 @@ export-filled
 female-outlined
 folder-filled
 folder-open-filled
+folder-twotone
+foldersopening-twotone
 help-filled
 homepage-outlined
 hospital-filled
@@ -45,6 +47,7 @@ no-data-twotone
 no-result-twotone
 not-found-twotone
 one-to-one-outlined
+opacityLoading-twotone
 open-filled
 opposite-filled
 pdf-twotone

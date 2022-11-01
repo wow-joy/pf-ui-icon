@@ -19,6 +19,8 @@ const SPECIAL_ICON_NAMES = {
   'close1': '0 0 40 40',
   'idcard': '0 0 148 95',
   'require': '0 0 7 8',
+  'folder': '0 0 1024 1024',
+  'foldersopening': '0 0 1024 1024',
 };
 
 export const adjustViewBox: TransformFactory = assignAttrsAtTag(
