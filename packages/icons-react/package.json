@@ -1,6 +1,6 @@
 {
   "name": "@pf-ui/pf-icons-react",
-  "version": "1.1.20",
+  "version": "1.1.22",
   "private": false,
   "description": "支持react的icon库",
   "author": "xuzhudong <451547014@qq.com>",
@@ -48,7 +48,7 @@
     "vite-plugin-dts": "^1.5.0"
   },
   "dependencies": {
-    "@pf-ui/pf-icon-svg": "^1.1.20",
+    "@pf-ui/pf-icon-svg": "^1.1.22",
     "classnames": "^2.2.6",
     "rc-util": "^5.9.4"
   },
