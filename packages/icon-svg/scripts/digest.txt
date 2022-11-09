@@ -15,6 +15,7 @@ delete-twotone
 dictionary-filled
 document-filled
 edit-filled
+edit2-filled
 error-filled
 error-outlined
 excle-twotone

@@ -16,6 +16,7 @@ export { default as DelFilled } from './DelFilled';
 export { default as DeleteTwoTone } from './DeleteTwoTone';
 export { default as DictionaryFilled } from './DictionaryFilled';
 export { default as DocumentFilled } from './DocumentFilled';
+export { default as Edit2Filled } from './Edit2Filled';
 export { default as EditFilled } from './EditFilled';
 export { default as ErrorFilled } from './ErrorFilled';
 export { default as ErrorOutlined } from './ErrorOutlined';
