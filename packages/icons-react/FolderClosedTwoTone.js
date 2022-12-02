@@ -4,10 +4,10 @@
   });
   exports.default = void 0;
   
-  var _FolderTwoTone = _interopRequireDefault(require('./lib/icons/FolderTwoTone'));
+  var _FolderClosedTwoTone = _interopRequireDefault(require('./lib/icons/FolderClosedTwoTone'));
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
-  var _default = _FolderTwoTone;
+  var _default = _FolderClosedTwoTone;
   exports.default = _default;
   module.exports = _default;

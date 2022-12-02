@@ -21,9 +21,9 @@ error-outlined
 excle-twotone
 export-filled
 female-outlined
+folder-closed-twotone
 folder-filled
 folder-open-filled
-folder-twotone
 foldersopening-twotone
 help-filled
 homepage-outlined
