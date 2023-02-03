@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _LogoFilled = _interopRequireDefault(require('./lib/icons/LogoFilled'));
+  var _LogoFilled = require('./lib/icons/LogoFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _LogoFilled;
   exports.default = _default;

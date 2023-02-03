@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _MenuFilled = _interopRequireDefault(require('./lib/icons/MenuFilled'));
+  var _MenuFilled = require('./lib/icons/MenuFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _MenuFilled;
   exports.default = _default;

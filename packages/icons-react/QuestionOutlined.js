@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _QuestionOutlined = _interopRequireDefault(require('./lib/icons/QuestionOutlined'));
+  var _QuestionOutlined = require('./lib/icons/QuestionOutlined');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _QuestionOutlined;
   exports.default = _default;

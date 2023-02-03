@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _CalendarOutlined = _interopRequireDefault(require('./lib/icons/CalendarOutlined'));
+  var _CalendarOutlined = require('./lib/icons/CalendarOutlined');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _CalendarOutlined;
   exports.default = _default;

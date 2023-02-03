@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _RarTwoTone = _interopRequireDefault(require('./lib/icons/RarTwoTone'));
+  var _RarTwoTone = require('./lib/icons/RarTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _RarTwoTone;
   exports.default = _default;

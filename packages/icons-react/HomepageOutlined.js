@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _HomepageOutlined = _interopRequireDefault(require('./lib/icons/HomepageOutlined'));
+  var _HomepageOutlined = require('./lib/icons/HomepageOutlined');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _HomepageOutlined;
   exports.default = _default;

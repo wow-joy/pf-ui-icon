@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _TitleTwoTone = _interopRequireDefault(require('./lib/icons/TitleTwoTone'));
+  var _TitleTwoTone = require('./lib/icons/TitleTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _TitleTwoTone;
   exports.default = _default;

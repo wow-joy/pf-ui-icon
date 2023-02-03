@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _ArrowDownFilled = _interopRequireDefault(require('./lib/icons/ArrowDownFilled'));
+  var _ArrowDownFilled = require('./lib/icons/ArrowDownFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _ArrowDownFilled;
   exports.default = _default;

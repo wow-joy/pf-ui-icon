@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _OpenFilled = _interopRequireDefault(require('./lib/icons/OpenFilled'));
+  var _OpenFilled = require('./lib/icons/OpenFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _OpenFilled;
   exports.default = _default;

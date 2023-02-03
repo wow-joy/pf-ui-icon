@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _DictionaryFilled = _interopRequireDefault(require('./lib/icons/DictionaryFilled'));
+  var _DictionaryFilled = require('./lib/icons/DictionaryFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _DictionaryFilled;
   exports.default = _default;

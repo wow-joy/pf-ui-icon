@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _AlertTwoTone = _interopRequireDefault(require('./lib/icons/AlertTwoTone'));
+  var _AlertTwoTone = require('./lib/icons/AlertTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _AlertTwoTone;
   exports.default = _default;

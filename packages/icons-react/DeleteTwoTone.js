@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _DeleteTwoTone = _interopRequireDefault(require('./lib/icons/DeleteTwoTone'));
+  var _DeleteTwoTone = require('./lib/icons/DeleteTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _DeleteTwoTone;
   exports.default = _default;

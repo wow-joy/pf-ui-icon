@@ -84,9 +84,8 @@ async function generateEntries() {
   });
   exports.default = void 0;
   
-  var _<%= svgIdentifier %> = _interopRequireDefault(require('./lib/icons/<%= svgIdentifier %>'));
+  var _<%= svgIdentifier %> = require('./lib/icons/<%= svgIdentifier %>');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _<%= svgIdentifier %>;
   exports.default = _default;

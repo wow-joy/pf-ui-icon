@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _QuestionTwoTone = _interopRequireDefault(require('./lib/icons/QuestionTwoTone'));
+  var _QuestionTwoTone = require('./lib/icons/QuestionTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _QuestionTwoTone;
   exports.default = _default;

@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _CollapseFilled = _interopRequireDefault(require('./lib/icons/CollapseFilled'));
+  var _CollapseFilled = require('./lib/icons/CollapseFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _CollapseFilled;
   exports.default = _default;

@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _MetadataFilled = _interopRequireDefault(require('./lib/icons/MetadataFilled'));
+  var _MetadataFilled = require('./lib/icons/MetadataFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _MetadataFilled;
   exports.default = _default;

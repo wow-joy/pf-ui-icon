@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _ArrowTopTwoTone = _interopRequireDefault(require('./lib/icons/ArrowTopTwoTone'));
+  var _ArrowTopTwoTone = require('./lib/icons/ArrowTopTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _ArrowTopTwoTone;
   exports.default = _default;
