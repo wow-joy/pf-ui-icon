@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _FoldersopeningTwoTone = _interopRequireDefault(require('./lib/icons/FoldersopeningTwoTone'));
+  var _FoldersopeningTwoTone = require('./lib/icons/FoldersopeningTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _FoldersopeningTwoTone;
   exports.default = _default;
