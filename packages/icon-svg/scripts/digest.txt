@@ -3,6 +3,7 @@ add-filled
 alert-outlined
 alert-twotone
 arrow-down-filled
+arrow-down-twotone
 arrow-left-outlined
 arrow-right-outlined
 arrow-top-twotone

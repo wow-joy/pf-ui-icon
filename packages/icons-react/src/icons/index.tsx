@@ -6,6 +6,7 @@ export { default as AddFilled } from './AddFilled';
 export { default as AlertOutlined } from './AlertOutlined';
 export { default as AlertTwoTone } from './AlertTwoTone';
 export { default as ArrowDownFilled } from './ArrowDownFilled';
+export { default as ArrowDownTwoTone } from './ArrowDownTwoTone';
 export { default as ArrowLeftOutlined } from './ArrowLeftOutlined';
 export { default as ArrowRightOutlined } from './ArrowRightOutlined';
 export { default as ArrowTopTwoTone } from './ArrowTopTwoTone';
