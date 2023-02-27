@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _HospitalFilled = _interopRequireDefault(require('./lib/icons/HospitalFilled'));
+  var _HospitalFilled = require('./lib/icons/HospitalFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _HospitalFilled;
   exports.default = _default;

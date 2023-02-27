@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _ExportFilled = _interopRequireDefault(require('./lib/icons/ExportFilled'));
+  var _ExportFilled = require('./lib/icons/ExportFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _ExportFilled;
   exports.default = _default;

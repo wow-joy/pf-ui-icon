@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _ErrorFilled = _interopRequireDefault(require('./lib/icons/ErrorFilled'));
+  var _ErrorFilled = require('./lib/icons/ErrorFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _ErrorFilled;
   exports.default = _default;

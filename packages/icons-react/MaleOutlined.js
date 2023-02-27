@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _MaleOutlined = _interopRequireDefault(require('./lib/icons/MaleOutlined'));
+  var _MaleOutlined = require('./lib/icons/MaleOutlined');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _MaleOutlined;
   exports.default = _default;

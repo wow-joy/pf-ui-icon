@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _RetractFilled = _interopRequireDefault(require('./lib/icons/RetractFilled'));
+  var _RetractFilled = require('./lib/icons/RetractFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _RetractFilled;
   exports.default = _default;

@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _ZoomFilled = _interopRequireDefault(require('./lib/icons/ZoomFilled'));
+  var _ZoomFilled = require('./lib/icons/ZoomFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _ZoomFilled;
   exports.default = _default;

@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _LoadingFilled = _interopRequireDefault(require('./lib/icons/LoadingFilled'));
+  var _LoadingFilled = require('./lib/icons/LoadingFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _LoadingFilled;
   exports.default = _default;

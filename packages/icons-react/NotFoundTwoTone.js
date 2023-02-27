@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _NotFoundTwoTone = _interopRequireDefault(require('./lib/icons/NotFoundTwoTone'));
+  var _NotFoundTwoTone = require('./lib/icons/NotFoundTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _NotFoundTwoTone;
   exports.default = _default;

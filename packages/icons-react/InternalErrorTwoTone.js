@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _InternalErrorTwoTone = _interopRequireDefault(require('./lib/icons/InternalErrorTwoTone'));
+  var _InternalErrorTwoTone = require('./lib/icons/InternalErrorTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _InternalErrorTwoTone;
   exports.default = _default;

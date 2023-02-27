@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _MinusOutlined = _interopRequireDefault(require('./lib/icons/MinusOutlined'));
+  var _MinusOutlined = require('./lib/icons/MinusOutlined');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _MinusOutlined;
   exports.default = _default;

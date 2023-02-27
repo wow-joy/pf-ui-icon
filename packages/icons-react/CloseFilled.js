@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _CloseFilled = _interopRequireDefault(require('./lib/icons/CloseFilled'));
+  var _CloseFilled = require('./lib/icons/CloseFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _CloseFilled;
   exports.default = _default;

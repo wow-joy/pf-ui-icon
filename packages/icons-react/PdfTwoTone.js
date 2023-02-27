@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _PdfTwoTone = _interopRequireDefault(require('./lib/icons/PdfTwoTone'));
+  var _PdfTwoTone = require('./lib/icons/PdfTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _PdfTwoTone;
   exports.default = _default;

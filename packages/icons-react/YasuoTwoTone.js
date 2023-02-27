@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _YasuoTwoTone = _interopRequireDefault(require('./lib/icons/YasuoTwoTone'));
+  var _YasuoTwoTone = require('./lib/icons/YasuoTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _YasuoTwoTone;
   exports.default = _default;

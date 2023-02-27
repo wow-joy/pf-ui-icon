@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _AlertOutlined = _interopRequireDefault(require('./lib/icons/AlertOutlined'));
+  var _AlertOutlined = require('./lib/icons/AlertOutlined');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _AlertOutlined;
   exports.default = _default;

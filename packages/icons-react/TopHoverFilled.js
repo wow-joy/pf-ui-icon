@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _TopHoverFilled = _interopRequireDefault(require('./lib/icons/TopHoverFilled'));
+  var _TopHoverFilled = require('./lib/icons/TopHoverFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _TopHoverFilled;
   exports.default = _default;

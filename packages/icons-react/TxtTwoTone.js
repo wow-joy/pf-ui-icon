@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _TxtTwoTone = _interopRequireDefault(require('./lib/icons/TxtTwoTone'));
+  var _TxtTwoTone = require('./lib/icons/TxtTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _TxtTwoTone;
   exports.default = _default;

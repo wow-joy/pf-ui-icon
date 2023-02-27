@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _EditFilled = _interopRequireDefault(require('./lib/icons/EditFilled'));
+  var _EditFilled = require('./lib/icons/EditFilled');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _EditFilled;
   exports.default = _default;

@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _JpgTwoTone = _interopRequireDefault(require('./lib/icons/JpgTwoTone'));
+  var _JpgTwoTone = require('./lib/icons/JpgTwoTone');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _JpgTwoTone;
   exports.default = _default;

@@ -4,9 +4,8 @@
   });
   exports.default = void 0;
   
-  var _RotateRightOutlined = _interopRequireDefault(require('./lib/icons/RotateRightOutlined'));
+  var _RotateRightOutlined = require('./lib/icons/RotateRightOutlined');
   
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
   
   var _default = _RotateRightOutlined;
   exports.default = _default;
