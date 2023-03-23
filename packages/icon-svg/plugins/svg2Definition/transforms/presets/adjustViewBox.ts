@@ -23,6 +23,7 @@ const SPECIAL_ICON_NAMES = {
   'foldersopening': '0 0 1024 1024',
   'opacityLoading': '0 0 59 60',
   'edit2': '0 0 1024 1024',
+  'calendar': '0 0 1024 1024',
 };
 
 export const adjustViewBox: TransformFactory = assignAttrsAtTag(
