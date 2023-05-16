@@ -16,6 +16,7 @@ export { default as CloseFilled } from './CloseFilled';
 export { default as CollapseFilled } from './CollapseFilled';
 export { default as DelFilled } from './DelFilled';
 export { default as DeleteTwoTone } from './DeleteTwoTone';
+export { default as DesignOutlined } from './DesignOutlined';
 export { default as DictionaryFilled } from './DictionaryFilled';
 export { default as DocumentFilled } from './DocumentFilled';
 export { default as Edit2Filled } from './Edit2Filled';

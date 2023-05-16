@@ -13,6 +13,7 @@ close1-twotone
 collapse-filled
 del-filled
 delete-twotone
+design-outlined
 dictionary-filled
 document-filled
 edit-filled
