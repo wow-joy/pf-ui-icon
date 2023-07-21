@@ -38,6 +38,7 @@ export { default as InfoOutlined } from './InfoOutlined';
 export { default as InfoTwoTone } from './InfoTwoTone';
 export { default as InternalErrorTwoTone } from './InternalErrorTwoTone';
 export { default as JpgTwoTone } from './JpgTwoTone';
+export { default as JsonTwoTone } from './JsonTwoTone';
 export { default as LoadingFilled } from './LoadingFilled';
 export { default as LogoFilled } from './LogoFilled';
 export { default as MaleOutlined } from './MaleOutlined';

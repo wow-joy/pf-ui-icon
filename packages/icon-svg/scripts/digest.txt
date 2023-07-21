@@ -36,6 +36,7 @@ info-outlined
 info-twotone
 internal-error-twotone
 jpg-twotone
+json-twotone
 loading-filled
 logo-filled
 male-outlined
