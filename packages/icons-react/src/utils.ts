@@ -84,6 +84,7 @@ export const iconStyles = `
 .anticon {
   display: inline-block;
   color: inherit;
+  font-size: inherit;
   font-style: normal;
   line-height: 0;
   text-align: center;
