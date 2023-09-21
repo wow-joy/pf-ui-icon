@@ -61,6 +61,7 @@ export { default as PlusFilled } from './PlusFilled';
 export { default as PngTwoTone } from './PngTwoTone';
 export { default as PptTwoTone } from './PptTwoTone';
 export { default as PrevFilled } from './PrevFilled';
+export { default as PrintOutlined } from './PrintOutlined';
 export { default as QuestionOutlined } from './QuestionOutlined';
 export { default as QuestionTwoTone } from './QuestionTwoTone';
 export { default as RarTwoTone } from './RarTwoTone';

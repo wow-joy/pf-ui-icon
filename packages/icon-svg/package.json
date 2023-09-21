@@ -1,6 +1,6 @@
 {
   "name": "@pf-ui/pf-icon-svg",
-  "version": "1.1.40",
+  "version": "1.1.41",
   "main": "lib/index.js",
   "module": "es/index.js",
   "author": "xuzhudong <451547014@qq.com>",

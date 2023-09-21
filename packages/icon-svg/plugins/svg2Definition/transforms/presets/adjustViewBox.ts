@@ -24,7 +24,8 @@ const SPECIAL_ICON_NAMES = {
   'opacityLoading': '0 0 59 60',
   'edit2': '0 0 1024 1024',
   'calendar': '0 0 1024 1024',
-  'design': '0 0 16 16'
+  'design': '0 0 16 16',
+  'print': '0 0 16 16'
 };
 
 export const adjustViewBox: TransformFactory = assignAttrsAtTag(

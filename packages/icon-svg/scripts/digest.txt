@@ -59,6 +59,7 @@ plus-filled
 png-twotone
 ppt-twotone
 prev-filled
+print-outlined
 question-outlined
 question-twotone
 rar-twotone
