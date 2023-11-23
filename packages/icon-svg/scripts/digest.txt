@@ -63,6 +63,7 @@ print-outlined
 question-outlined
 question-twotone
 rar-twotone
+refresh-filled
 replace-filled
 require-filled
 retract-filled

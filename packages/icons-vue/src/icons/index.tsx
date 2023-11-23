@@ -65,6 +65,7 @@ export { default as PrintOutlined } from './PrintOutlined';
 export { default as QuestionOutlined } from './QuestionOutlined';
 export { default as QuestionTwoTone } from './QuestionTwoTone';
 export { default as RarTwoTone } from './RarTwoTone';
+export { default as RefreshFilled } from './RefreshFilled';
 export { default as ReplaceFilled } from './ReplaceFilled';
 export { default as RequireFilled } from './RequireFilled';
 export { default as RetractFilled } from './RetractFilled';

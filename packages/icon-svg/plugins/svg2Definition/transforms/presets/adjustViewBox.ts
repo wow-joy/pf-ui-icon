@@ -25,7 +25,8 @@ const SPECIAL_ICON_NAMES = {
   'edit2': '0 0 1024 1024',
   'calendar': '0 0 1024 1024',
   'design': '0 0 16 16',
-  'print': '0 0 16 16'
+  'print': '0 0 16 16',
+  'refresh': '0 0 18 18'
 };
 
 export const adjustViewBox: TransformFactory = assignAttrsAtTag(
