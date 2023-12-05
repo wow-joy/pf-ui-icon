@@ -11,6 +11,7 @@ calendar-outlined
 close-filled
 close1-twotone
 collapse-filled
+copy-outlined
 del-filled
 delete-twotone
 design-outlined

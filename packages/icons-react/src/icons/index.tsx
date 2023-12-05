@@ -14,6 +14,7 @@ export { default as CalendarOutlined } from './CalendarOutlined';
 export { default as Close1TwoTone } from './Close1TwoTone';
 export { default as CloseFilled } from './CloseFilled';
 export { default as CollapseFilled } from './CollapseFilled';
+export { default as CopyOutlined } from './CopyOutlined';
 export { default as DelFilled } from './DelFilled';
 export { default as DeleteTwoTone } from './DeleteTwoTone';
 export { default as DesignOutlined } from './DesignOutlined';
