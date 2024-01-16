@@ -35,6 +35,7 @@ export default series(
     // 2.2 generate abstract node with the theme "filled"
     generateIcons({
       theme: 'filled',
+      standard: false,
       from: ['svg/filled/*.svg'],
       toDir: 'src/asn',
       svgoConfig: generalConfig,
@@ -50,10 +51,29 @@ export default series(
       }),
       filename: ({ name }) => getIdentifier({ name, themeSuffix: 'Filled' })
     }),
+    generateIcons({
+      theme: 'filled',
+      standard: true,
+      from: ['standardSvg/filled/*.svg'],
+      toDir: 'src/asn',
+      svgoConfig: generalConfig,
+      extraNodeTransformFactories: [
+        assignAttrsAtTag('svg', { focusable: 'false', fill: 'currentColor' }),
+        adjustViewBox
+      ],
+      stringify: JSON.stringify,
+      template: iconTemplate,
+      mapToInterpolate: ({ name, content }) => ({
+        identifier: getIdentifier({ name, themeSuffix: 'FilledStandard' }),
+        content
+      }),
+      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'FilledStandard' })
+    }),
 
     // 2.2 generate abstract node with the theme "outlined"
     generateIcons({
       theme: 'outlined',
+      standard: false,
       from: ['svg/outlined/*.svg'],
       toDir: 'src/asn',
       svgoConfig: generalConfig,
@@ -69,10 +89,29 @@ export default series(
       }),
       filename: ({ name }) => getIdentifier({ name, themeSuffix: 'Outlined' })
     }),
+    generateIcons({
+      theme: 'outlined',
+      standard: true,
+      from: ['standardSvg/outlined/*.svg'],
+      toDir: 'src/asn',
+      svgoConfig: generalConfig,
+      extraNodeTransformFactories: [
+        assignAttrsAtTag('svg', { focusable: 'false', fill: 'currentColor' }),
+        adjustViewBox
+      ],
+      stringify: JSON.stringify,
+      template: iconTemplate,
+      mapToInterpolate: ({ name, content }) => ({
+        identifier: getIdentifier({ name, themeSuffix: 'OutlinedStandard' }),
+        content
+      }),
+      filename: ({ name }) => getIdentifier({ name, themeSuffix: 'OutlinedStandard' })
+    }),
 
     // 2.3 generate abstract node with the theme "outlined"
     generateIcons({
       theme: 'twotone',
+      standard: false,
       from: ['svg/twotone/*.svg'],
       toDir: 'src/asn',
       svgoConfig: remainFillConfig,
@@ -89,6 +128,25 @@ export default series(
       filename: ({ name }) => getIdentifier({ name, themeSuffix: 'TwoTone' })
     })
   ),
+  generateIcons({
+    theme: 'twotone',
+    standard: true,
+    from: ['standardSvg/twotone/*.svg'],
+    toDir: 'src/asn',
+    svgoConfig: generalConfig,
+    extraNodeTransformFactories: [
+      assignAttrsAtTag('svg', { focusable: 'false', fill: 'currentColor' }),
+      adjustViewBox
+    ],
+    stringify: JSON.stringify,
+    template: iconTemplate,
+    mapToInterpolate: ({ name, content }) => ({
+      identifier: getIdentifier({ name, themeSuffix: 'TwotoneStandard' }),
+      content
+    }),
+    filename: ({ name }) => getIdentifier({ name, themeSuffix: 'TwotoneStandard' })
+  }),
+
   parallel(
     // 3.1 generate entry file: src/index.ts
     generateEntry({

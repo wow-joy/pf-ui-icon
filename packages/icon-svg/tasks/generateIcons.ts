@@ -19,6 +19,7 @@ export const generateIcons = ({
   toDir,
   svgoConfig,
   theme,
+  standard,
   extraNodeTransformFactories,
   stringify,
   template,
@@ -30,6 +31,7 @@ export const generateIcons = ({
       .pipe(svgo(svgoConfig))
       .pipe(
         svg2Definition({
+          standard,
           theme,
           extraNodeTransformFactories,
           stringify

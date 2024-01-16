@@ -33,6 +33,7 @@ export interface StringifyFn {
 }
 
 export interface SVG2DefinitionOptions {
+  standard: boolean;
   theme: ThemeType;
   extraNodeTransformFactories: TransformFactory[];
   stringify?: StringifyFn;
@@ -42,7 +43,7 @@ export interface XML2AbstractNodeOptions extends SVG2DefinitionOptions {
   name: string;
 }
 
-export type TransformOptions = Pick<XML2AbstractNodeOptions, 'name' | 'theme'>;
+export type TransformOptions = Pick<XML2AbstractNodeOptions, 'name' | 'theme' | 'standard'>;
 
 export interface TransformFactory {
   (options: TransformOptions): (asn: AbstractNode) => AbstractNode;
@@ -50,6 +51,7 @@ export interface TransformFactory {
 
 // SVG => IconDefinition
 export const svg2Definition = ({
+  standard,
   theme,
   extraNodeTransformFactories,
   stringify
@@ -107,6 +109,7 @@ export const svg2Definition = ({
         // }
 
         element2AbstractNode({
+          standard,
           name,
           theme,
           extraNodeTransformFactories
@@ -133,13 +136,14 @@ export const svg2Definition = ({
   );
 
 function element2AbstractNode({
+  standard,
   name,
   theme,
   extraNodeTransformFactories
 }: XML2AbstractNodeOptions) {
   return ({ name: tag, attributes, children }: Element): AbstractNode => applyTo(extraNodeTransformFactories)(
       pipe(
-        map((factory: TransformFactory) => factory({ name, theme })),
+        map((factory: TransformFactory) => factory({ name, theme, standard })),
         reduce(
           (transformedNode, extraTransformFn) =>
             extraTransformFn(transformedNode),
@@ -151,6 +155,7 @@ function element2AbstractNode({
                 filter<Element, 'array'>(where({ type: equals('element') })),
                 map(
                   element2AbstractNode({
+                    standard,
                     name,
                     theme,
                     extraNodeTransformFactories

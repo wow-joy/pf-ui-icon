@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>15-图标/4操作/置底</title>
+    <g id="平台icon231127" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="平台icon231128" transform="translate(-712, -280)">
+            <g id="15-图标/4操作/置底" transform="translate(712, 280)">
+                <rect id="_mockplus_fix_" x="0" y="0" width="16" height="16"></rect>
+                <rect id="_mockplus_fix_" x="0" y="0" width="16" height="16"></rect>
+                <path d="M8,13 C8.1515625,13 8.290625,12.9234375 8.3734375,12.796875 L12.9234375,5.8890625 C13.121875,5.5875 12.9078125,5.1828125 12.55,5.1828125 L10,5.1828125 L10,0.4546875 C10,0.203125 9.7015625,0 9.3328125,0 L6.6671875,0 C6.2984375,0 6,0.2015625 6,0.4546875 L6,5.1828125 L3.45,5.1828125 C3.090625,5.1828125 2.8765625,5.5875 3.0765625,5.8890625 L7.6265625,12.796875 C7.709375,12.9234375 7.85,13 8,13 Z M12,16 C12.5515625,16 13,15.5515625 13,15 C13,14.4484375 12.5515625,14 12,14 L4,14 C3.4484375,14 3,14.4484375 3,15 C3,15.5515625 3.4484375,16 4,16 L12,16 Z" id="置底" fill="#3B8FD9" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

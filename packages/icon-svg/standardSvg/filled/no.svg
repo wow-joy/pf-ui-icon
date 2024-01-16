@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>15-图标/6标签/1否</title>
+    <g id="平台icon231127" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="平台icon231128" transform="translate(-88, -424)">
+            <g id="15-图标/6标签/1否" transform="translate(88, 424)">
+                <rect id="_mockplus_fix_" x="0" y="0" width="16" height="16"></rect>
+                <rect id="_mockplus_fix_" x="0" y="0" width="16" height="16"></rect>
+                <g id="否">
+                    <rect id="矩形" fill="#B3B3B3" x="0" y="0" width="16" height="16" rx="2"></rect>
+                    <g transform="translate(2.516, 2.568)" fill="#FFFFFF" fill-rule="nonzero" id="形状">
+                        <path d="M0.6,0 L0.6,1.224 L5.148,1.224 C4.056,2.376 2.34,3.372 0,4.212 L0.792,5.244 C2.424,4.584 3.78,3.84 4.86,3 L4.86,5.724 L6.108,5.724 L6.108,1.848 C6.288,1.644 6.456,1.44 6.624,1.224 L10.428,1.224 L10.428,0 L0.6,0 Z M9.6,6.012 L1.392,6.012 L1.392,10.644 L2.664,10.644 L2.664,10.104 L8.328,10.104 L8.328,10.644 L9.6,10.644 L9.6,6.012 Z M2.664,8.904 L2.664,7.212 L8.328,7.212 L8.328,8.904 L2.664,8.904 Z M7.392,2.004 L6.552,2.82 C8.028,3.708 9.168,4.524 9.972,5.292 L10.884,4.38 C9.936,3.588 8.772,2.796 7.392,2.004 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

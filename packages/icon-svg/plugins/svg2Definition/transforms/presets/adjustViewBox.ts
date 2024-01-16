@@ -30,9 +30,25 @@ const SPECIAL_ICON_NAMES = {
   'copy': '0 0 16 16',
 };
 
+const STANDARD_SPECIAL_ICON_NAMES = {
+  'http-not-found': '0 0 120 120',
+  'http-error': '0 0 120 120',
+  'disconnected': '0 0 120 120',
+  'please-waiting': '0 0 120 120',
+  'not-authorized': '0 0 120 120',
+  'no-result': '0 0 120 120',
+  'no-data': '0 0 120 120',
+  'http-not-found2': '0 0 150 150',
+  'http-error2': '0 0 150 150',
+  'disconnected2': '0 0 150 150',
+  'not-authorized2': '0 0 150 150',
+  'no-result2': '0 0 150 150',
+  'no-data2': '0 0 150 150',
+};
+
 export const adjustViewBox: TransformFactory = assignAttrsAtTag(
   'svg',
-  ({ name }) => ({
-    viewBox: SPECIAL_ICON_NAMES[name] || '0 0 100 100'
+  ({ name, standard }) => ({
+    viewBox: (standard ? STANDARD_SPECIAL_ICON_NAMES[name] || '0 0 16 16' : SPECIAL_ICON_NAMES[name]) || '0 0 100 100'
   })
 );

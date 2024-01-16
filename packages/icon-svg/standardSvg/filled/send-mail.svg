@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>发送邮件</title>
+    <g id="平台icon231127" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="平台icon231128" transform="translate(-472, -184)">
+            <g id="发送邮件" transform="translate(472, 184)">
+                <rect id="_mockplus_fix_" x="0" y="0" width="15.999875" height="15.9999953"></rect>
+                <path d="M0.431138562,5.89144384 L14.9201372,0.0594580466 C15.4949886,-0.169112824 16.1841246,0.288028917 15.9544126,0.97374153 L12.7350161,15.3828493 C12.6207315,16.0685619 11.7007407,16.1828474 11.3556012,15.7257056 L7.44592588,10.6937179 L12.9658709,3.60459226 L6.64021961,9.89371982 L0.431138562,7.37829736 C-0.143712854,7.14972649 -0.143712854,6.23544301 0.431138562,5.89144384 Z" id="路径" fill="#666666" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

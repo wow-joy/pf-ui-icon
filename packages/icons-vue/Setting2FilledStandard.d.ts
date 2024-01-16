@@ -1,0 +1,1 @@
+export { default } from './lib/icons/Setting2FilledStandard';

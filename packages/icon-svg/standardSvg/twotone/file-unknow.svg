@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>15-图标/6标签/未知格式</title>
+    <defs>
+        <polygon id="path-1" points="9.03544325 0 12.5987392 3.4352 12.5987392 16 5.68449492e-16 16 5.68449492e-16 11.0864 1.23043313 11.0864 1.23043313 12.0336 1.21763278 12.0336 1.21763278 13.264 1.23043313 13.264 1.23043313 14.7696 11.366706 14.7696 11.366706 4.5856 8.01781585 4.5856 8.01781585 1.2304 1.23043313 1.2304 1.23043313 4.5952 5.68449492e-16 4.5952 5.68449492e-16 0"></polygon>
+        <path d="M2.31526233,5.7184 L2.31526233,6.9168 L0,6.9168 L0,5.7184 L2.31526233,5.7184 Z M2.31526233,2.8592 L2.31526233,4.0576 L0,4.0576 L0,2.8592 L2.31526233,2.8592 L2.31526233,2.8592 Z M2.31526233,0 L2.31526233,1.1984 L0,1.1984 L0,0 L2.31526233,0 Z" id="path-3"></path>
+        <polygon id="path-5" points="5.27054189 0 5.27054189 7.104 5.68449492e-16 7.104 5.68449492e-16 5.8736 4.03850872 5.8736 4.03850872 0"></polygon>
+    </defs>
+    <g id="平台icon231127" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="平台icon231128" transform="translate(-88, -472)">
+            <g id="15-图标/6标签/未知格式" transform="translate(88, 472)">
+                <rect id="_mockplus_fix_" x="0" y="0" width="16" height="16"></rect>
+                <rect id="_mockplus_fix_" x="0" y="0" width="16" height="16"></rect>
+                <g id="weizhi" transform="translate(0.57, 0)">
+                    <g id="Clipped" transform="translate(2.2593, 0)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="路径"></g>
+                        <g id="编组" mask="url(#mask-2)" fill="#819292" fill-rule="nonzero">
+                            <polygon id="路径" points="5.68449492e-16 0 12.5987392 0 12.5987392 16 5.68449492e-16 16"></polygon>
+                        </g>
+                    </g>
+                    <g id="Clipped" transform="translate(10.0755, 6.3312)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="形状"></g>
+                        <g id="编组" mask="url(#mask-4)" fill="#819292" fill-rule="nonzero">
+                            <g transform="translate(-0.0016, 0)" id="路径">
+                                <polygon points="0 -1.13686838e-15 2.31686237 -1.13686838e-15 2.31686237 6.9168 0 6.9168"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="编组" transform="translate(3.4769, 6.16)">
+                        <polygon id="路径" fill="#198EEB" fill-rule="nonzero" points="5.27054189 0 5.27054189 7.104 5.68449492e-16 7.104 5.68449492e-16 5.8736 4.03850872 5.8736 4.03850872 0"></polygon>
+                        <g id="Clipped">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <g id="路径"></g>
+                            <g id="编组" mask="url(#mask-6)" fill="#198EEB" fill-rule="nonzero">
+                                <polygon id="路径" points="5.68449492e-16 0 5.27054189 0 5.27054189 7.104 5.68449492e-16 7.104"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <rect id="矩形" fill="#198EEB" fill-rule="nonzero" x="0" y="4.5952" width="6.49617489" height="6.4912"></rect>
+                    <path d="M2.79207517,6.776 L2.00645402,6.776 L2.00645402,5.6544 L4.35851734,5.6544 L4.35851734,7.2976 L3.55369567,8.2384 L3.55369567,8.992 L2.76807452,8.992 L2.76807452,8.096 L3.57289619,7.1552 L3.57289619,6.312 L2.79367521,6.312 L2.79367521,6.776 L2.79207517,6.776 Z M2.76007431,9.424 L3.53929528,9.424 L3.53929528,10.2096 L2.76007431,10.2096 L2.76007431,9.424 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

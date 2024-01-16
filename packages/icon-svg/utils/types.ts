@@ -15,5 +15,5 @@ export interface IconDefinition {
 }
 
 export type ThemeType = 'filled' | 'outlined' | 'twotone';
-export type ThemeTypeUpperCase = 'Filled' | 'Outlined' | 'TwoTone';
+export type ThemeTypeUpperCase = 'Filled' | 'FilledStandard' | 'Outlined' | 'OutlinedStandard' | 'TwoTone' | 'TwotoneStandard';
 

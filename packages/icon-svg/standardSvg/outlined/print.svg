@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>15-图标/4操作/打印</title>
+    <g id="平台icon231127" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="平台icon231128" transform="translate(-136, -280)">
+            <g id="15-图标/4操作/打印" transform="translate(136, 280)">
+                <rect id="_mockplus_fix_" x="0" y="0" width="16" height="16"></rect>
+                <rect id="_mockplus_fix_" x="0" y="0" width="16" height="16"></rect>
+                <path d="M12,0 C12.5515625,0 13,0.4484375 13,1 L13,4 L15,4 C15.5515625,4 16,4.4484375 16,5 L16,12 C16,12.5515625 15.5515625,13 15,13 L13,13 L13,15 C13,15.5515625 12.5515625,16 12,16 L4,16 C3.4484375,16 3,15.5515625 3,15 L3,13 L1,13 C0.4484375,13 5.68434189e-14,12.5515625 5.68434189e-14,12 L5.68434189e-14,5 C5.68434189e-14,4.4484375 0.4484375,4 1,4 L3,4 L3,1 C3,0.4484375 3.4484375,0 4,0 L12,0 Z M11.3,9.7 L4.7,9.7 L4.7,14.3 L11.3,14.3 L11.3,9.7 Z M14.3,5.7 L1.7,5.7 L1.7,11.3 L3,11.3 L3,9 C3,8.4484375 3.4484375,8 4,8 L12,8 C12.5515625,8 13,8.4484375 13,9 L13,11.3 L14.3,11.3 L14.3,5.7 Z M11.3,1.7 L4.7,1.7 L4.7,3.9984375 L11.3,3.9984375 L11.3,1.7 Z" id="打印" fill="#3B8FD9" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>15-图标/2提示/3D提示/灰无数据</title>
+    <g id="平台icon231127" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="平台icon231128" transform="translate(-1000, -548)">
+            <g id="15-图标/2提示/3D提示/灰无数据" transform="translate(1000, 548)">
+                <rect id="_mockplus_fix_" x="0" y="0" width="120" height="120"></rect>
+                <g id="无数据">
+                    <rect id="矩形备份-3" fill-opacity="0" fill="#EFE9DE" x="0" y="0" width="120" height="120"></rect>
+                    <g id="Page-1" transform="translate(18, 27)">
+                        <polygon id="Fill-1" fill="#C8C8C8" points="44.0456699 0 44.0456699 23.0965164 73.8612563 11.3833848"></polygon>
+                        <polygon id="Fill-2" fill="#D3D3D3" points="44.0456699 0 9.09627032 11.3833848 8.4149224 12.4821756 37.2906235 25.7520187 44.0456699 23.0965164"></polygon>
+                        <polygon id="Fill-3" fill="#F4F4F4" points="37.290403 67 75.3549297 50.8270706 75.9195377 29.5594973 43.6959554 42.8134569 37.290403 25.5579071"></polygon>
+                        <polygon id="Fill-4" fill="#EAEAEA" points="36.8756407 25.9172755 37.2901825 26.5214461 43.6957349 42.8137855 84 26.9519793 73.8613666 11.3832205"></polygon>
+                        <polygon id="Fill-5" fill="#DDDDDD" points="31.530012 42.4996684 8.5438052 28.8003183 8.5438052 50.277237 37.2905133 66.6336634 37.2905133 25.6019624"></polygon>
+                        <polygon id="Fill-6" fill="#EAEAEA" points="0 24.3234812 31.5388013 42.8227139 37.2905684 25.7520187 8.41486728 12.4821756"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
